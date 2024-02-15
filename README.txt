@@ -8,3 +8,8 @@ For float array type:
 
 make DEFINES="-DUSE_FLOAT"
 ./sin_sum
+
+### Output Comparison
+
+- **Float**: Sum of sin values (single precision)
+- **Double**: Sum of sin values (double precision)
