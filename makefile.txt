@@ -1,0 +1,12 @@
+CC=g++
+CFLAGS=-std=c++11
+TARGET=sin_sum
+SRC=main.cpp
+
+all: $(TARGET)
+
+$(TARGET): $(SRC)
+ $(CC) $(CFLAGS) -o $(TARGET) $(SRC) $(DEFINES)
+
+clean:
+ rm -f $(TARGET)
